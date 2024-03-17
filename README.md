@@ -7,7 +7,7 @@ The goal of this project is to create a build a machine learning model to predic
 According to salary.com the average salary for a New York Taxi Driver is around $45,000. This salary is significantly low compared to a median rent value of aprrox. $6,400 per month. It is important to undertand what factors encourage riders to leave tips in order to help drivers obtain a liveale wage.
 
 # Data Understanding
-The dataset is from NYC.gov. The data consisted of approximately 408K unique trips and 18 features. The featured included information on trip duration and destination, vendor used, toll, tip and fare amounts, payment type, pickup and drop off times and locations.
+The dataset is from NYC.gov. The data consisted of approximately 408K unique trips and 18 features. The features included information on trip duration and destination, vendor used, toll, tip and fare amounts, payment type, pickup and drop off times and locations.
 
 # Modelling and Evaluation
 A random forest model comprising of 300 decision trees was used to determine feature importance in who would tip generously or not. The vendorID, trip duration, trip distance were the top 3 most important factors in determining a generous tipper and non-generous tipper. The overall model performed with 71.6% accuracy and F1 score of 0.756.
